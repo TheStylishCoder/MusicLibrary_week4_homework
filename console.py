@@ -14,6 +14,10 @@ artist_repository.save(artist2)
 artist3 = Artist("Gorillaz")
 artist_repository.save(artist3)
 
+# res = artist_repository.select_all()
+# for artist in res:
+#     print(artist.__dict__)
+
 
 
 
