@@ -47,6 +47,10 @@ album_repository.save(album11)
 album12 = Album("Humanz", artist3, "Electropop")
 album_repository.save(album12)
 
+# res = album_repository.select_all()
+# for album in res:
+#     print(album.__dict__)
+
 
 
 pdb.set_trace()
