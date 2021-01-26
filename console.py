@@ -6,4 +6,10 @@ import repositories.artist_repository as artist_repository
 import repositories.album_repository as album_repository
 
 
+artist1 = Artist("Haim")
+artist_repository.save(artist1)
+
+
+
+
 pdb.set_trace()
