@@ -52,7 +52,9 @@ def albums(artist):
 
 
 def delete(id):
-    pass
+    sql = "DELETE FROM tasks WHERE id = %s"
+    values = [id]
+    run_sql(sql, values)
 
 
 def update(artist):
