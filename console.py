@@ -25,8 +25,25 @@ album_repository.save(album2)
 album3 = Album("Women in Music Pt. III", artist1, "Soft Rock")
 album_repository.save(album3)
 
+album4 = Album("Dangerously In Love", artist2, "R&B")
+album_repository.save(album4)
+album5 = Album("B'Day", artist2, "R&B")
+album_repository.save(album5)
+album6 = Album("I Am...Sasha Fierce", artist2, "R&B")
+album_repository.save(album6)
+album7 = Album("4", artist2, "R&B")
+album_repository.save(album7)
+album8 = Album("Beyonce", artist2, "R&B")
+album_repository.save(album8)
+album9 = Album("Lemonade", artist2, "R&B")
+album_repository.save(album9)
 
-
+album10 = Album("Demon Days", artist3, "Alternative Rock")
+album_repository.save(album10)
+album11 = Album("Plastic Beach", artist3, "Pop")
+album_repository.save(album11)
+album12 = Album("Humanz", artist3, "Electropop")
+album_repository.save(album12)
 
 
 pdb.set_trace()
