@@ -13,6 +13,8 @@ artist_repository.save(artist2)
 artist3 = Artist("Gorillaz")
 artist_repository.save(artist3)
 
+artist_repository.delete_all()
+
 
 
 

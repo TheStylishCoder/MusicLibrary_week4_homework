@@ -13,7 +13,8 @@ def save(artist):
     return artist
 
 def delete_all():
-    pass
+    sql = "DELETE FROM artists"
+    run_sql(sql)
 
 
 def select(id):
