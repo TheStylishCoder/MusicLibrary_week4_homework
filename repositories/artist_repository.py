@@ -58,4 +58,4 @@ def delete(id):
 
 
 def update(artist):
-    pass
+   pass

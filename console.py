@@ -15,6 +15,9 @@ artist_repository.save(artist2)
 artist3 = Artist("Gorillaz")
 artist_repository.save(artist3)
 
+# artist3.name = "Blur"
+# artist_repository.update(artist3)
+
 # res = artist_repository.select_all()
 # for artist in res:
 #     print(artist.__dict__)
@@ -44,8 +47,11 @@ album10 = Album("Demon Days", artist3, "Alternative Rock")
 album_repository.save(album10)
 album11 = Album("Plastic Beach", artist3, "Pop")
 album_repository.save(album11)
-album12 = Album("Humanz", artist3, "Electropop")
+album12 = Album("Humans", artist3, "Electropop")
 album_repository.save(album12)
+
+album12.title = "Humanz"
+album_repository.update(album12)
 
 # res = album_repository.select_all()
 # for album in res:
