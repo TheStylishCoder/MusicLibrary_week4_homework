@@ -6,6 +6,7 @@ import repositories.artist_repository as artist_repository
 import repositories.album_repository as album_repository
 
 artist_repository.delete_all()
+album_repository.delete_all()
 
 artist1 = Artist("Haim")
 artist_repository.save(artist1)
@@ -46,6 +47,6 @@ album_repository.save(album11)
 album12 = Album("Humanz", artist3, "Electropop")
 album_repository.save(album12)
 
-album_repository.delete_all()
+
 
 pdb.set_trace()
