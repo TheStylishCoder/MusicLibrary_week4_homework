@@ -8,6 +8,10 @@ import repositories.album_repository as album_repository
 
 artist1 = Artist("Haim")
 artist_repository.save(artist1)
+artist2 = Artist("Beyonce")
+artist_repository.save(artist2)
+artist3 = Artist("Gorillaz")
+artist_repository.save(artist3)
 
 
 
