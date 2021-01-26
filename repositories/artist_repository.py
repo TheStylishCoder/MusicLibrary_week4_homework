@@ -40,7 +40,15 @@ def select_all():
 
 
 def albums(artist):
-    pass
+    albums = []
+    sql = "SELECT * FROM albums WHERE artist_id = %s"
+    values = [artist_id]
+    result = run_sql(sql, values)[0]
+    if result is not None:
+        album = Album(row['title', artist, row['genre'], row['id']])
+        albums.append(album)
+    return albums
+
 
 
 def delete(id):
