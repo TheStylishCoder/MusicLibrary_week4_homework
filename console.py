@@ -18,6 +18,12 @@ artist_repository.save(artist3)
 # for artist in res:
 #     print(artist.__dict__)
 
+album1 = Album("Days Are Gone", artist1, "Pop Rock")
+album_repository.save(album1)
+album2 = Album("Something to Tell You", artist1, "Pop Rock")
+album_repository.save(album2)
+album3 = Album("Women in Music Pt. III", artist1, "Soft Rock")
+album_repository.save(album3)
 
 
 
