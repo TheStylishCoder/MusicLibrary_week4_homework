@@ -18,6 +18,7 @@ artist_repository.save(artist3)
 # for artist in res:
 #     print(artist.__dict__)
 
+
 album1 = Album("Days Are Gone", artist1, "Pop Rock")
 album_repository.save(album1)
 album2 = Album("Something to Tell You", artist1, "Pop Rock")
@@ -45,5 +46,6 @@ album_repository.save(album11)
 album12 = Album("Humanz", artist3, "Electropop")
 album_repository.save(album12)
 
+album_repository.delete_all()
 
 pdb.set_trace()
